@@ -13,4 +13,26 @@ This is a complete end to end project of detecting abusive comment in facebook. 
 4. Used various machine learning algorithm and hyparameter tunned each and every algorithm.
 5. Finally converted it as a end to end project(web app running in the localhost) by using Streamlit.
 
+## How to run this project in your system.
+1. Down load or clone the repository
+```python
+git clone https://github.com/Sudhakordas/Detecting-face-emotion-using-CNN.git
+```
+2. Create a new environment.
+3. Activate that environment 
+ ```python
+conda activate environment_name
+```
+4. Install all the denpendencies.
+```python
+pip install  -r requirements.txt
+```
+5. Now run the project.
+ ### To run the web app.
+ Go to the directory where you have clone the repository.
+ Type 
+ ```python
+  streamlit run Ald.py
+  ```
+
 
