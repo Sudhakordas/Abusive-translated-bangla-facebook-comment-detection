@@ -16,7 +16,7 @@ This is a complete end to end project of detecting abusive comment in facebook. 
 ## How to run this project in your system.
 1. Down load or clone the repository
 ```python
-git clone https://github.com/Sudhakordas/Detecting-face-emotion-using-CNN.git
+git clone https://github.com/Sudhakordas/Abusive-translated-bangla-facebook-comment-detection.git
 ```
 2. Create a new environment.
 3. Activate that environment 
@@ -34,5 +34,6 @@ pip install  -r requirements.txt
  ```python
   streamlit run Ald.py
   ```
-
+## Future work
+1.I am wanting to make a simillar types of project to detect cyberbullyong in Bangladeshi local language.
 
