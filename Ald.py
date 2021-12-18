@@ -27,8 +27,8 @@ def textpreprocess(text):
     return Comment
 
 
-st.title("Abussive Language detection")
-input_comment = st.text_input("Enter the comment")
+st.title("Abusive bangla comment detection")
+input_comment = st.text_input("Enter the bangla comment")
 
 
 if st.button('Predict'):
@@ -49,7 +49,7 @@ if st.button('Predict'):
     #display
 
     if result == 1:
-        st.header("This is a abussive comment")
+        st.header("This is a abusive comment")
 
     else:
         st.header("This is not a abusive comment")
