@@ -6,6 +6,7 @@ import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+nltk.download('stopwords')
 
 from googletrans import Translator
 translator = Translator()
