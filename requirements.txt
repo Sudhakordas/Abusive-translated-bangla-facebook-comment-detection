@@ -1,3 +1,4 @@
 streamlit==1.1.0
 googletrans==3.1.0a0
 nltk==3.5
+sklearn
